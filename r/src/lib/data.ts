@@ -1,0 +1,58 @@
+import type { Article } from './types';
+
+export const placeholderArticles: Article[] = [
+  {
+    id: '1',
+    title: 'Understanding Common Cold Symptoms',
+    summary: 'Learn about the typical symptoms of the common cold and how to differentiate it from the flu.',
+    category: 'General Health',
+    imageUrl: 'https://placehold.co/600x400.png',
+    keywords: ['cold', 'flu', 'symptoms'],
+    content: 'The common cold is a viral infection that primarily affects your nose and throat (upper respiratory tract). It\'s generally harmless, although it might not feel that way. Many types of viruses can cause a common cold. Symptoms usually appear one to three days after exposure to a cold-causing virus. Signs and symptoms, which can vary from person to person, might include: Runny or stuffy nose, Sore throat, Cough, Congestion, Slight body aches or a mild headache, Sneezing, Low-grade fever, Generally feeling unwell (malaise).',
+  },
+  {
+    id: '2',
+    title: 'Benefits of a Balanced Diet',
+    summary: 'Explore the importance of a balanced diet for overall health and well-being, including tips for healthy eating.',
+    category: 'Fitness & Nutrition',
+    imageUrl: 'https://placehold.co/600x400.png',
+    keywords: ['diet', 'nutrition', 'healthy eating'],
+    content: 'A balanced diet gives your body the nutrients it needs to function correctly. To get the nutrition you need, most of your daily calories should come from: fresh fruits, fresh vegetables, whole grains, legumes, nuts, lean proteins. Eating a balanced diet can help you maintain a healthy weight, reduce your risk of chronic diseases (like heart disease, type 2 diabetes, and some cancers), and promote overall health.',
+  },
+  {
+    id: '3',
+    title: 'Managing Stress and Anxiety',
+    summary: 'Discover effective techniques for managing stress and anxiety in daily life, promoting mental wellness.',
+    category: 'Mental Wellness',
+    imageUrl: 'https://placehold.co/600x400.png',
+    keywords: ['stress', 'anxiety', 'mental health'],
+    content: 'Stress and anxiety are common experiences, but when they become overwhelming, they can affect your health. Effective management techniques include: Regular physical activity, Relaxation techniques (deep breathing, meditation, yoga), Spending time in nature, Getting enough sleep, Connecting with others, Seeking professional help when needed.',
+  },
+  {
+    id: '4',
+    title: 'The Importance of Regular Exercise',
+    summary: 'Understand why regular physical activity is crucial for physical and mental health, with exercise recommendations.',
+    category: 'Fitness & Nutrition',
+    imageUrl: 'https://placehold.co/600x400.png',
+    keywords: ['exercise', 'fitness', 'physical activity'],
+    content: 'Regular physical activity is one of the most important things you can do for your health. It can improve brain health, help manage weight, reduce the risk of diseases, strengthen bones and muscles, and improve your ability to do everyday activities. Adults should aim for at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity a week, or an equivalent combination.',
+  },
+  {
+    id: '5',
+    title: 'Living with Diabetes: A Guide',
+    summary: 'A comprehensive guide for individuals living with diabetes, covering management, diet, and lifestyle.',
+    category: 'Chronic Conditions',
+    imageUrl: 'https://placehold.co/600x400.png',
+    keywords: ['diabetes', 'chronic illness', 'management'],
+    content: 'Living with diabetes means making healthy choices and managing your blood sugar levels. This involves: Monitoring blood sugar, Healthy eating plan, Regular exercise, Taking medication as prescribed, Regular check-ups with your healthcare team. With proper management, people with diabetes can live long and healthy lives.',
+  },
+  {
+    id: '6',
+    title: 'Sleep Hygiene: Tips for Better Sleep',
+    summary: 'Improve your sleep quality with these practical tips for better sleep hygiene.',
+    category: 'General Health',
+    imageUrl: 'https://placehold.co/600x400.png',
+    keywords: ['sleep', 'insomnia', 'hygiene'],
+    content: 'Good sleep hygiene can make a big difference in your quality of life. Tips for better sleep include: Sticking to a sleep schedule, Paying attention to what you eat and drink before bed, Creating a restful environment, Limiting daytime naps, Including physical activity in your daily routine, Managing worries before bed.',
+  },
+];
